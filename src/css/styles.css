@@ -4,7 +4,6 @@ body {
 
 h2 {
     box-sizing: border-box;
-    text-size-adjust: 20em 10em 20em 10em;
     float: center;
     background-color: lightgreen;
     font-style: normal;
@@ -28,6 +27,7 @@ h2 {
 }
 
 #output {
+    box-sizing: border-box;
     background-color: lightgreen;
     font-style: normal;
     color: white;
