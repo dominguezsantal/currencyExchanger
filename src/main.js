@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import CurrencyExchange from './exchanger.js';
 
-
 function getRates(response, conversionAmount, currencyCode, currencyText) {
     if (response["conversion_rates"][currencyCode] === undefined) {
         $(".showErrors").text(`The selected currency code is not available`);
@@ -19,7 +18,6 @@ function clearFields() {
     $(".showConversion").text("");
     $(".showErrors").text("");
 }
-
 async function makeApiCall(conversionAmount, currencyCode, currencyText) {
     const response = await CurrencyExchange.getConversion();
     getRates(response, conversionAmount, currencyCode, currencyText);
