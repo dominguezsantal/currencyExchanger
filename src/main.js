@@ -10,6 +10,7 @@ function getRates(response, conversionAmount, currencyCode, currencyText) {
     } else if (response.result === "success") {
         $(".showConversion").text(`${conversionAmount} USD = ${(response["conversion_rates"][currencyCode]*[conversionAmount]).toLocaleString()} ${currencyText}`);
     } else {
+        $(".showErrors").text(`There was an error processing your request ${response.message}`);
         $(".showErrors").text(`There was an error processing your request: ${response["error-type"]}`);
     }
 }
