@@ -3,14 +3,14 @@
 # Currency Exchanger
 
 
-#### By Alex Dominguez
+#### By Alex G.Dominguez
 
 ## Preview
 
   * Follow this [path](https://github.com/dominguezsantal/currencyExchanger/githubio) to view the project on GitHub Pages
 
 ## Technologies Used
-
+* _Postman 8.9.1_
 * _Babel 7.6.4_
 * _Babel/plugin-transform-modules-commonjs 7.6.0_
 * _Bootstrap 4.5.0_
@@ -35,7 +35,7 @@
 
 ## Description
 
-An application that provides information about currency exchange. A user should be able to type in an amount (in U.S. dollars) and then choose which currency it should be converted to (such as francs, marks, rupees, and so on).
+An application that provides information about currency exchange. Users are able to type in an amount (in U.S. dollars) and then choose which currency it should be converted accross the world.
 
 ## Setup/Installation Requirements
 
@@ -43,7 +43,7 @@ An application that provides information about currency exchange. A user should 
 * _If [Node.js](https://nodejs.org/en/) and [Node Package Manager (npm)](https://www.npmjs.com/) are not installed on your local device, follow the instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js)_
 * _Navigate to the directory inside of which you wish to house this project_
 * _Clone this project with the following command  `$ git clone <https://github.com/dominguezsantal/currencyExchanger>`_
-* _Navigate to the top level of the repository with the command `$ cd  currentExchanger`_
+* _Navigate to the top level of the repository with the command `$ cd  currencyExchanger`_
 * _Recreate project environment and install required dependencies with terminal command `$ npm install`_
 * _Create production environment with terminal command `$ npm run build`_
 
