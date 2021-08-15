@@ -15,6 +15,16 @@ function getRates(response, conversionAmount, currencyCode, currencyText) {
     }
 }
 
+function clearFields() {
+    $(".showConversion").text("");
+    $(".showErrors").text("");
+}
+
+async function makeApiCall(conversionAmount, currencyCode, currencyText) {
+    const response = await CurrencyExchange.getConversion();
+    getRates(response, conversionAmount, currencyCode, currencyText);
+}
+
 $(document).ready(function() {
     $("#conversion").click(function() {
         let conversionAmount = $("#usd-amount").val();
