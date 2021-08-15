@@ -21,7 +21,6 @@ function clearFields() {
 }
 
 async function makeApiCall(conversionAmount, currencyCode, currencyText) {
-    console.log('inside makeapi call')
     const response = await CurrencyExchange.getConversion();
     getRates(response, conversionAmount, currencyCode, currencyText);
 }
