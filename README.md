@@ -1,6 +1,6 @@
 
 
-# Currency Exchanger
+# Money is King Currency Exchanger
 
 
 #### By Alex G.Dominguez
