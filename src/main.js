@@ -14,3 +14,15 @@ function getRates(response, conversionAmount, currencyCode, currencyText) {
         $(".showErrors").text(`There was an error processing your request: ${response["error-type"]}`);
     }
 }
+
+$(document).ready(function() {
+    $("#conversion").click(function() {
+        let conversionAmount = $("#usd-amount").val();
+        const inputCurrency = $("#convertedCurrency").val();
+        let currencyCode = inputCurrency.substring(0, 3);
+        let currencyText = inputCurrency.substring(6);
+        //clearFields();
+        //makeApiCall(conversionAmount, currencyCode, currencyText);
+        $("#output").show();
+    });
+});
