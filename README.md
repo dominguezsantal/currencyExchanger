@@ -1,15 +1,13 @@
-### _This project is not in a complete or portfolio ready state, and should not be considered representiational of professional work._
 
 
 # Currency Exchanger
 
-#### Brief Description of Application
 
 #### By Alex Dominguez
 
 ## Preview
 
-  * Follow this [path](https://github.com/) to view the project on GitHub Pages
+  * Follow this [path](https://github.com/dominguezsantal/currencyExchanger/githubio) to view the project on GitHub Pages
 
 ## Technologies Used
 
@@ -37,7 +35,7 @@
 
 ## Description
 
-This is a detailed description of your application.
+An application that provides information about currency exchange. A user should be able to type in an amount (in U.S. dollars) and then choose which currency it should be converted to (such as francs, marks, rupees, and so on).
 
 ## Setup/Installation Requirements
 
