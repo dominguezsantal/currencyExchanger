@@ -1,7 +1,7 @@
 ### _This project is not in a complete or portfolio ready state, and should not be considered representiational of professional work._
 
 
-# Application Name
+# Currency Exchanger
 
 #### Brief Description of Application
 
