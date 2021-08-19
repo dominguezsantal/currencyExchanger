@@ -53,22 +53,8 @@ An application that provides information about currency exchange. Users are able
 
 * In your env directory, tore your API key as API_KEY={API key goes here/remove curly braces}.
 
-
-
-
-
-
-
-
-
-* _Lint code with the command `$ npm run lint`_
-* _Run tests in Jest with the command `$ npm test`_
-
 ## Specifications
-
-| Behavior | Input | Output |
-|:---: |:---:|:---:|
-| The program should... | When it receives... | It should return...|
+n/a
 
 ## Known Bugs
 
