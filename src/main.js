@@ -17,7 +17,6 @@ async function makeApiCall(conversionAmount, currencyCode, currencyText) {
     const response = await CurrencyExchange.getConversion();
     getRates(response, conversionAmount, currencyCode, currencyText);
 }
-
 function clearFields() {
     $(".showConversion").text("");
     $(".showErrors").text("");
