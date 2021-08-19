@@ -44,7 +44,6 @@ An application that provides information about currency exchange. Users are able
 * _Recreate only once your project environment and install required dependencies with terminal command `$ npm install`_
 * _Create production environment with terminal command `$ npm run build`_
 * View the project in a development server in the browswer of your choice with the command `$ npm run start`_
-
 * -----API Key Specifications-----
 * Click on the exchange rate API site to get a free API key.[here](https://www.exchangerate-api.com/)
 
