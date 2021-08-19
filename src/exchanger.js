@@ -7,7 +7,11 @@ export default class CurrencyExchange {
             }
             return response.json();
         } catch (error) {
-            return error.message;
+            if (error.message.length === 0) {
+                return "Something went wrong!";
+            } else {
+                return error.message;
+            }
         }
     }
 }
